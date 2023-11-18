@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
+import Card from '@/components/Card'
 
 
 export default function Home() {
@@ -12,7 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Hello world</h1>
+        <section className={styles.Cardcontainer}>
+          <Card/>
+          <Card/>
+          <Card/>
+        </section>
       </main>
     </>
   )

@@ -1,1 +1,42 @@
+ .main {
+    height: 100vh;
+ }
+
+ .Cardcontainer {
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+ }
+
+ .Card {
+    width: 20rem;
+    height: 20rem;
+    background-color: transparent;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 1rem;
+ }
+
+ .Cardtitle {
+    align-self: center;
+    padding: 0.5rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+ }
+
+ .Cardcontent {
+    width: 100%;
+    border-top: 3px solid azure;
+    padding: 0.5rem;
+ }
+
+ .Cardcategory {
+    flex: content;
+    flex-direction: column;
+ }
+
  
